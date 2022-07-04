@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* Create with Compass + SCSS on windows */
+/* ... 齊力樂門後臺板面增修201903 ... */
+/* 右側欄樣式追加 begin */
+.chili-btn-group {
+  /*按鈕群組*/
+}
+.chili-btn-group .chili-btn {
+  color: #fff !important;
+}
+.chili-btn-group .chili-btn.full-rounded {
+  /*四向圓角*/
+  border-radius: 3px !important;
+}
+.chili-btn-group .chili-btn.spaced {
+  /*產生右邊的間距*/
+  margin-right: 8px !important;
+}
+.chili-btn-group .chili-btn.task-create {
+  /*新增*/
+  border-color: #265FB6 !important;
+  background-color: #3B7FE7 !important;
+}
+.chili-btn-group .chili-btn.task-search {
+  /*搜尋*/
+  border-color: #1CA538 !important;
+  background-color: #137928 !important;
+}
+.chili-btn-group .chili-btn.task-modify {
+  /*修改*/
+  border-color: #035FA6 !important;
+  background-color: #2B72A8 !important;
+}
+.chili-btn-group .chili-btn.task-delete {
+  /*刪除*/
+  border-color: #CA3538 !important;
+  background-color: #9D1C1F !important;
+}
+.chili-btn-group .chili-btn.task-mutual {
+  /*無特定*/
+  color: #5b626b !important;
+  border-color: #C6C6C6 !important;
+  background-color: #F5F5F5 !important;
+}
+
+.chili-pagination .chili-pagi-info {
+  font-size: 18px;
+  padding-top: 0.85em !important;
+  white-space: nowrap !important;
+}
+.chili-pagination .chili-pagi-group {
+  margin: 2px 0;
+  white-space: nowrap !important;
+  justify-content: flex-end !important;
+}
+.chili-pagination .chili-btn a {
+  color: #396f9e !important;
+  border-color: #e2e2e2 !important;
+  background-color: #fff !important;
+}
+.chili-pagination .chili-btn a:hover, .chili-pagination .chili-btn.current a {
+  background-color: #e2e2e2 !important;
+}
+.chili-pagination .chili-btn.current a {
+  color: #396f9e !important;
+}
+.chili-pagination .chili-btn.disabled a {
+  background-color: #f4f4f4 !important;
+  cursor: pointer !important;
+}
+
+#wrapper > div.content-page .card > .card-body .mantain-task {
+  /*常見維護功能*/
+  margin-bottom: 8px;
+}
+
+/* 右側欄內容樣式追加 end */

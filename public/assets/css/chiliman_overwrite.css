@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* Create with Compass + SCSS on windows */
+/* ... 齊力樂門後臺板面增修201903 ... */
+/* 左側欄調整 begin */
+#wrapper > div.left.side-menu {
+  /*左側欄背景*/
+}
+#wrapper > div.left.side-menu > div.topbar-left,
+#wrapper > div.left.side-menu > div.slimScrollDiv {
+  background-color: #f3f3f3;
+}
+
+div.topbar{
+    min-height: 50px;
+}
+@media (max-width: 810px) {
+    #pagesDesc{
+        display: none !important;
+    }
+}
+@media (max-width: 480px) {
+    #pagesNav{
+        display: none !important;
+    }
+}
+#sidebar-menu > ul {
+  /*左側欄選單*/
+}
+#sidebar-menu > ul > li.menu-title {
+  /*選單標題*/
+  font-size: 18px;
+  line-height: 1.5;
+}
+#sidebar-menu > ul > li.has_sub {
+  /*選單有第二層時*/
+}
+#sidebar-menu > ul > li.has_sub.nav-active > a {
+  font-weight: bold;
+  color: #2d67b1;
+}
+#sidebar-menu > ul > li.has_sub > ul > li > a.current {
+  color: #fff;
+  background-color: #2d67b1;
+}
+#sidebar-menu > ul > li > a {
+  /*一般的選單連結*/
+  font-size: 18px;
+}
+#sidebar-menu > ul > li > a > i {
+  color: #2d67b1;
+}
+#sidebar-menu > ul > li > a > span {
+  line-height: 1.5;
+}
+#sidebar-menu > ul > li > a.current {
+  /*一般的選單連結作用中*/
+  font-weight: bold;
+  color: #fff;
+  background-color: #2d67b1;
+}
+#sidebar-menu > ul > li > a.current > i {
+  color: #fff;
+}
+
+/* 左側欄調整 end */
+/* 右側欄內容調整 begin */
+#wrapper > div.content-page > div.content {
+  /*內容區域移除內距*/
+  padding: 0;
+}
+#wrapper > div.content-page > div > div.page-content-wrapper {
+  /*內容區域調整外距*/
+  margin: auto;
+}
+#wrapper > div.content-page .card > .card-body {
+  /*內容區域調整內距*/
+  padding: 8px;
+  padding-top: calc(1.25rem + 8px);
+}
+
+/* 右側欄內容調整 end */

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* 複寫與調整一些JS Tree 原生的CSS */
+section#singletonTreeMenu {
+  color: #5b626b;
+}
+section#singletonTreeMenu.jstree-default > .jstree-striped {
+  background-size: auto 70px;
+}
+section#singletonTreeMenu.jstree-default .jstree-themeicon {
+  /*所有符號*/
+  /*background-position: -260px 1px;*/
+}
+section#singletonTreeMenu.jstree-default > .jstree-no-dots .jstree-open > .jstree-ocl {
+  /*目錄開啟箭頭符號*/
+  /*background-position: -36px 2px;*/
+}
+section#singletonTreeMenu.jstree-default > .jstree-no-dots .jstree-closed > .jstree-ocl {
+  /*目錄關閉箭頭符號*/
+  /*background-position: -4px 1px;*/
+}
+section#singletonTreeMenu.jstree-default .jstree-file {
+  /*檔案符號*/
+  /*background-position: -100px -64px;*/
+}
+section#singletonTreeMenu.jstree-default .jstree-wholerow {
+  height: 35px;
+}
+section#singletonTreeMenu.jstree-default .jstree-icon:empty {
+  margin-top: 4px;
+  height: 24px;
+  /*保持符號的原始大小*/
+  line-height: 24px;
+  /*保持符號的原始大小*/
+  /*height: $nodeHeight;
+  line-height: $nodeHeight;*/
+}
+section#singletonTreeMenu.jstree-default .jstree-anchor {
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  letter-spacing: 0.03rem;
+  word-spacing: 0.03rem;
+}

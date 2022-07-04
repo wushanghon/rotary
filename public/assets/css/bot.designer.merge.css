@@ -1,0 +1,719 @@
+@charset "UTF-8";
+/* Create with Compass + SCSS on windows */
+/* ... 齊力樂門Powerline 2.0 Line Bot Desinger Web Version ... */
+.webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .propsWrapper .actionsTypeTitle {
+  letter-spacing: 1px;
+  word-spacing: 1px; }
+
+.webBotDesigner .blockStayCenter, .webBotDesigner input,
+.webBotDesigner textarea {
+  background: none;
+  border: none; }
+
+.webBotDesigner section.TextModule.locked .fullTemplate .templateEmulator, .webBotDesigner section.ImageModule.locked .fullTemplate .templateEmulator, .webBotDesigner .blockStayCenter, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard li div {
+  margin: 0 auto; }
+
+.webBotDesigner .templateEmulator .basicBubble.imageCardsBubble .imageCardsMask figcaption span, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard li div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.hiddenItem {
+  font-size: 1px;
+  line-height: 0;
+  text-indent: 0;
+  visibility: hidden; }
+
+.hideItem {
+  display: none; }
+
+.clearFloat {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  font-size: 0;
+  height: 0;
+  display: block;
+  width: 100%; }
+  .clearFloat:before, .clearFloat:after {
+    margin: 0;
+    padding: 0;
+    display: none; }
+
+.blockSelfCenter {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
+.inlineBlockCenterReady {
+  display: inline-block !important;
+  text-align: center; }
+  .inlineBlockCenterReady .inlineBlockCenter {
+    display: inline-block !important; }
+    .inlineBlockCenterReady .inlineBlockCenter * {
+      text-align: initial; }
+
+.valignReady:before {
+  content: ' ';
+  display: inline-block !important;
+  vertical-align: middle;
+  margin-left: -0.25rem;
+  width: 0;
+  height: 100%;
+  /*搭配:before 擬元素的垂直置中效果part1*/ }
+
+.valignReady .valignStart,
+.valignReady .valignMiddle,
+.valignReady .valignEnd {
+  display: inline-block !important; }
+
+.valignReady .valignStart {
+  vertical-align: top;
+  /*搭配:before 擬元素的垂直置上效果part2-1*/ }
+
+.valignReady .valignMiddle {
+  vertical-align: middle;
+  /*搭配:before 擬元素的垂直置中效果part2-2*/ }
+
+.valignReady .valignEnd {
+  vertical-align: bottom;
+  /*搭配:before 擬元素的垂直置底效果part2-3*/ }
+
+.xyCenterReady {
+  display: inline-block !important;
+  text-align: center; }
+  .xyCenterReady:before {
+    content: ' ';
+    display: inline-block !important;
+    vertical-align: middle;
+    margin-left: -0.25rem;
+    width: 0;
+    height: 100%;
+    /*搭配:before 擬元素的垂直置中效果part1*/ }
+  .xyCenterReady .xyCenter {
+    display: inline-block !important;
+    vertical-align: middle; }
+    .xyCenterReady .xyCenter * {
+      text-align: initial; }
+
+select.styled {
+  appearance: none;
+  -moz-appearance: none;
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+  border: none;
+  background: #fff;
+  background-repeat: no-repeat; }
+
+select.styled::-ms-expand {
+  display: none;
+  /* remove default arrow on ie10 and ie11 */ }
+
+select.styled:disabled {
+  background-color: #ccc;
+  color: #666; }
+
+.templateSelector,
+.presetTemplateSelector {
+  -webkit-border-bottom-right-radius: 0.25rem;
+  -webkit-border-bottom-left-radius: 0.25rem;
+  -moz-border-radius-bottomright: 0.25rem;
+  -moz-border-radius-bottomleft: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem; }
+
+.templateSelector {
+  list-style: none; }
+  .templateSelector label {
+    width: 130px;
+    height: 130px; }
+    .templateSelector label .vIcon {
+      display: inline-block;
+      margin-bottom: 10px; }
+      .templateSelector label .vIcon i {
+        font-size: 50px; }
+
+.presetTemplateSelector {
+  list-style: none;
+  height: 130px;
+  overflow: auto; }
+  .presetTemplateSelector li {
+    width: 100%; }
+    .presetTemplateSelector li:last-child {
+      margin-bottom: 0; }
+  .presetTemplateSelector label span {
+    display: inline-block;
+    width: 12rem; }
+
+.initTemplateType {
+  -webkit-border-top-left-radius: 0.25rem;
+  -webkit-border-top-right-radius: 0.25rem;
+  -moz-border-radius-topleft: 0.25rem;
+  -moz-border-radius-topright: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem; }
+  .initTemplateType .combineIcon:checked + label i {
+    display: inline-block; }
+  .initTemplateType .combineIcon + label i {
+    display: none; }
+  .initTemplateType .defaultLabel {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .initTemplateType .emptyLabel {
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+
+.hintBox,
+.confirmBox,
+.waitBox {
+  display: block; }
+  .hintBox.off,
+  .confirmBox.off,
+  .waitBox.off {
+    display: none; }
+
+.webBotDesigner {
+  position: relative; }
+  .webBotDesigner .restoreProcess {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9; }
+    .webBotDesigner .restoreProcess.submitMode {
+      position: fixed;
+      z-index: 100; }
+      .webBotDesigner .restoreProcess.submitMode .progress {
+        top: 50%;
+        transform: translateY(-50%);
+        left: 30%;
+        right: 30%;
+        width: 40%;
+        height: 4rem; }
+        .webBotDesigner .restoreProcess.submitMode .progress .progress-bar {
+          width: 100%; }
+        .webBotDesigner .restoreProcess.submitMode .progress .progress-bar * {
+          display: none; }
+        .webBotDesigner .restoreProcess.submitMode .progress .progress-bar .wait {
+          display: block;
+          font-size: 1rem; }
+    .webBotDesigner .restoreProcess .progress {
+      position: absolute;
+      /*
+			
+    		*/
+      top: -1.25rem;
+      left: 0;
+      width: 100%; }
+      .webBotDesigner .restoreProcess .progress .wait {
+        display: none; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; } }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; } }
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; } }
+  .webBotDesigner section {
+    /*唯獨模式*/ }
+    .webBotDesigner section.TextModule.locked .dataAltText, .webBotDesigner section.ImageModule.locked .dataAltText, .webBotDesigner section.ImageCardsModule.locked .dataAltText, .webBotDesigner section.FancyCardsModule.locked .dataAltText {
+      position: absolute !important;
+      /*top: -100000px;*/
+      left: -100000px; }
+    .webBotDesigner section.TextModule.locked .fullTemplate .scrollerWrapper .basicBubble .propsWrapper, .webBotDesigner section.ImageModule.locked .fullTemplate .scrollerWrapper .basicBubble .propsWrapper, .webBotDesigner section.ImageCardsModule.locked .fullTemplate .scrollerWrapper .basicBubble .propsWrapper, .webBotDesigner section.FancyCardsModule.locked .fullTemplate .scrollerWrapper .basicBubble .propsWrapper {
+      display: none; }
+    .webBotDesigner section.TextModule.locked .fullTemplate div.col-4, .webBotDesigner section.ImageModule.locked .fullTemplate div.col-4 {
+      /*文字填寫或檔案上傳欄位*/
+      display: none; }
+    .webBotDesigner section.TextModule.locked .fullTemplate .templateEmulator, .webBotDesigner section.ImageModule.locked .fullTemplate .templateEmulator {
+      padding-left: 0 !important; }
+    .webBotDesigner section.ImageCardsModule.locked .fullTemplate div.col-1 {
+      display: none; }
+    .webBotDesigner section.ImageCardsModule.locked .fullTemplate .templateEmulator {
+      display: block;
+      flex: 0 0 100%;
+      padding-left: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important; }
+    .webBotDesigner section.ImageCardsModule.locked dd {
+      height: 340px; }
+      .webBotDesigner section.ImageCardsModule.locked dd .bg {
+        height: 300px; }
+      .webBotDesigner section.ImageCardsModule.locked dd .scrollerWrapper {
+        height: 340px; }
+    .webBotDesigner section.FancyCardsModule.locked .fullTemplate div.col-2 {
+      display: none; }
+    .webBotDesigner section.FancyCardsModule.locked .fullTemplate .templateEmulator {
+      display: block;
+      flex: 0 0 100%;
+      padding-left: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important; }
+  .webBotDesigner section {
+    /*每個模組的最高層級元素*/
+    position: relative; }
+    .webBotDesigner section .inputAlert {
+      position: absolute;
+      /*top: 240px;
+			left: 260px;*/
+      z-index: 4; }
+      .webBotDesigner section .inputAlert:hover .desc {
+        display: block;
+        width: 400px;
+        overflow-x: hidden; }
+      .webBotDesigner section .inputAlert:hover i {
+        /*display: none;*/ }
+      .webBotDesigner section .inputAlert i {
+        font-size: 1.75rem; }
+        .webBotDesigner section .inputAlert i:before {
+          z-index: 2; }
+      .webBotDesigner section .inputAlert i.loopAnimation {
+        animation: fadeIn 0.4s infinite alternate; }
+      .webBotDesigner section .inputAlert .desc {
+        display: none;
+        z-index: 1; }
+        .webBotDesigner section .inputAlert .desc p {
+          display: inline-block;
+          font-size: 0.9rem; }
+  .webBotDesigner .fancyTextField {
+    min-height: 15rem;
+    max-height: 80%;
+    line-height: 1.5; }
+  .webBotDesigner .tips {
+    font-size: 0.8rem; }
+  .webBotDesigner .preloadImg {
+    overflow: hidden; }
+  .webBotDesigner.off,
+  .webBotDesigner .off,
+  .webBotDesigner textarea.off {
+    position: absolute !important;
+    /*top: -100000px;*/
+    left: -100000px; }
+  .webBotDesigner input.off {
+    display: none; }
+  .webBotDesigner input[type="file"].off {
+    left: 0;
+    top: -55px;
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    visibility: hidden; }
+  .webBotDesigner .numbersCount {
+    list-style: none; }
+    .webBotDesigner .numbersCount li {
+      list-style: none; }
+  .webBotDesigner .combineIcon:checked + label i {
+    display: inline-block; }
+  .webBotDesigner .combineIcon + label i {
+    display: none; }
+  .webBotDesigner .templateEmulator.fancyTextSize dd {
+    height: 40rem; }
+  .webBotDesigner .templateEmulator.soloImageSize dd {
+    min-height: 17.5rem;
+    height: auto;
+    overflow: inherit; }
+  .webBotDesigner .templateEmulator.fancyCardsSize dd, .webBotDesigner .templateEmulator.imageCardsSize dd {
+    position: relative;
+    width: 100%;
+    background: none;
+    overflow: inherit;
+    padding: 0; }
+    .webBotDesigner .templateEmulator.fancyCardsSize dd .scrollerWrapper, .webBotDesigner .templateEmulator.imageCardsSize dd .scrollerWrapper {
+      position: absolute;
+      top: 12px;
+      left: 20px;
+      right: 20px;
+      overflow-x: auto;
+      overflow-y: hidden; }
+  .webBotDesigner .templateEmulator.imageCardsSize dd {
+    height: 590px; }
+    .webBotDesigner .templateEmulator.imageCardsSize dd .bg {
+      height: 300px; }
+    .webBotDesigner .templateEmulator.imageCardsSize dd .scrollerWrapper {
+      height: 590px; }
+  .webBotDesigner .templateEmulator.fancyCardsSize dd {
+    height: 1200px; }
+    .webBotDesigner .templateEmulator.fancyCardsSize dd .bg {
+      height: 430px; }
+    .webBotDesigner .templateEmulator.fancyCardsSize dd .scrollerWrapper {
+      height: 1200px; }
+  .webBotDesigner .templateEmulator dd {
+    overflow: auto;
+    padding: 12px 20px; }
+  .webBotDesigner .templateEmulator .basicBubble {
+    position: relative;
+    /* 從IE9 開始支援 */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px 15px;
+    max-width: 100%;
+    min-width: 5.5rem;
+    min-height: 3rem; }
+    .webBotDesigner .templateEmulator .basicBubble:before {
+      position: absolute;
+      content: " ";
+      top: 2px;
+      left: -7px;
+      width: 15px;
+      height: 11px; }
+    .webBotDesigner .templateEmulator .basicBubble * {
+      line-height: 1.5; }
+    .webBotDesigner .templateEmulator .basicBubble .fileSelectorWrapper {
+      position: relative; }
+    .webBotDesigner .templateEmulator .basicBubble .propsWrapper {
+      margin-top: 95px; }
+    .webBotDesigner .templateEmulator .basicBubble .cardsOptions {
+      position: relative; }
+      .webBotDesigner .templateEmulator .basicBubble .cardsOptions button {
+        /* 從IE9 開始支援 */
+        -webkit-border-radius: 90px;
+        -moz-border-radius: 90px;
+        border-radius: 90px;
+        position: absolute;
+        top: -75px;
+        width: 50px;
+        height: 50px;
+        font-size: 1.65rem; }
+        .webBotDesigner .templateEmulator .basicBubble .cardsOptions button.off {
+          display: none; }
+      .webBotDesigner .templateEmulator .basicBubble .cardsOptions .swapBtn[data-swap="prev"] {
+        left: calc(100% / 2 - 50px / 2 - 65px); }
+      .webBotDesigner .templateEmulator .basicBubble .cardsOptions .swapBtn[data-swap="next"] {
+        right: calc(100% / 2 - 50px / 2 - 65px); }
+      .webBotDesigner .templateEmulator .basicBubble .cardsOptions .disableCardBtn {
+        left: calc(100% / 2 - 50px / 2); }
+  .webBotDesigner .templateEmulator .basicBubble.soloImageBubble {
+    padding: 0;
+    width: 250px;
+    height: 150px;
+    overflow: hidden; }
+    .webBotDesigner .templateEmulator .basicBubble.soloImageBubble:before {
+      display: none; }
+    .webBotDesigner .templateEmulator .basicBubble.soloImageBubble.portraitSize {
+      width: 324px;
+      height: 459px; }
+    .webBotDesigner .templateEmulator .basicBubble.soloImageBubble.landscapeSize {
+      width: 337.5px;
+      height: 175.5px; }
+    .webBotDesigner .templateEmulator .basicBubble.soloImageBubble img {
+      /* 從IE9 開始支援 */
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      width: 100%;
+      height: auto; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble {
+    /* 從IE9 開始支援 */
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    position: absolute;
+    padding: 0;
+    top: 0;
+    transition-property: top;
+    transition-duration: 0.35s;
+    z-index: 4;
+    background: none; }
+    .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble:before, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble:before {
+      display: none; }
+    .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.bubbleDisabled, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.bubbleDisabled {
+      transition-property: top;
+      transition-duration: 0.55s;
+      top: 25px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.bubbleDisabled .imageCardsMask {
+    transition-property: opacity;
+    transition-duration: 0.55s;
+    opacity: 0.3; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count0 {
+    left: 0px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count1 {
+    left: 280px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count2 {
+    left: 560px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count3 {
+    left: 840px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count4 {
+    left: 1120px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count5 {
+    left: 1400px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count6 {
+    left: 1680px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count7 {
+    left: 1960px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count8 {
+    left: 2240px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count9 {
+    left: 2520px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count0.off, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count1.off, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count2.off, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count3.off, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count4.off, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count5.off, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count6.off, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count7.off, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count8.off, .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble.count9.off {
+    left: -100000px; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble .imageCardsMask {
+    position: relative;
+    /* 從IE9 開始支援 */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 260px;
+    height: 255px; }
+    .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble .imageCardsMask > a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3; }
+    .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble .imageCardsMask figcaption {
+      position: absolute;
+      left: 5%;
+      right: 5%;
+      bottom: 20px;
+      width: 90%;
+      line-height: 0;
+      text-align: center;
+      z-index: 2; }
+      .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble .imageCardsMask figcaption span {
+        /* 從IE9 開始支援 */
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        display: inline-block;
+        padding: 10px 15px;
+        max-width: 100%;
+        font-size: 0.8rem; }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble .propsWrapper {
+    width: 260px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.bubbleDisabled .fancyCardsMask,
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.bubbleDisabled .textCard,
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.bubbleDisabled .actionsCard {
+    transition-property: opacity;
+    transition-duration: 0.55s;
+    opacity: 0.3; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count0 {
+    left: 0px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count1 {
+    left: 270px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count2 {
+    left: 540px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count3 {
+    left: 810px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count4 {
+    left: 1080px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count5 {
+    left: 1350px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count6 {
+    left: 1620px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count7 {
+    left: 1890px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count8 {
+    left: 2160px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count9 {
+    left: 2430px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count0.off, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count1.off, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count2.off, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count3.off, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count4.off, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count5.off, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count6.off, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count7.off, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count8.off, .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble.count9.off {
+    left: -100000px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .fancyCardsMask {
+    position: relative;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 250px;
+    height: 165px; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .textCard {
+    width: 250px;
+    padding: 10px 15px; }
+    .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .textCard.onHead {
+      -webkit-border-top-left-radius: 15px;
+      -webkit-border-top-right-radius: 15px;
+      -moz-border-radius-topleft: 15px;
+      -moz-border-radius-topright: 15px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px; }
+    .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .textCard .space {
+      height: 15px; }
+    .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .textCard strong,
+    .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .textCard span {
+      display: block;
+      line-height: 1.5;
+      overflow: hidden; }
+    .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .textCard strong {
+      max-height: 75px;
+      /*約三行高*/
+      margin-bottom: 15px; }
+    .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .textCard span {
+      max-height: 65px;
+      /*約三行高*/
+      font-size: 0.95rem; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard {
+    width: 250px;
+    padding: 25px 0;
+    list-style: none;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; }
+    .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard > *:last-child {
+      margin-bottom: 0; }
+    .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard li {
+      margin-bottom: 20px; }
+      .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard li div {
+        width: 170px; }
+        .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard li div span,
+        .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard li div a {
+          font-size: 0.9rem; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .propsWrapper {
+    margin-top: 105px;
+    width: 250px; }
+
+@charset "UTF-8";
+/* Create with Compass + SCSS on windows */
+/* ... 齊力樂門Powerline 2.0 Line Bot Desinger Web Version ... */
+/*
+@import '_extends.scss';
+@import '_mixins.scss';
+@import '_class_defaults.scss';
+*/
+.initTemplateType .combineIcon:checked + label,
+.presetTemplateSelector .combineIcon:checked + label,
+.templateSelector .combineIcon:checked + label {
+  background-color: #007bff;
+  color: #fff; }
+  .initTemplateType .combineIcon:checked + label *,
+  .presetTemplateSelector .combineIcon:checked + label *,
+  .templateSelector .combineIcon:checked + label * {
+    color: #fff; }
+  .initTemplateType .combineIcon:checked + label i,
+  .presetTemplateSelector .combineIcon:checked + label i,
+  .templateSelector .combineIcon:checked + label i {
+    color: #ffc107; }
+
+.initTemplateType .combineIcon:checked + label {
+  background-color: #007bff; }
+  .initTemplateType .combineIcon:checked + label i {
+    color: #fff; }
+
+.hintBox,
+.confirmBox,
+.waitBox {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.webBotDesigner .restoreProcess {
+  background-color: rgba(0, 0, 0, 0.3); }
+  .webBotDesigner .restoreProcess .progress {
+    /*
+			
+    		*/ }
+
+@keyframes fadeIn {}@-webkit-keyframes fadeIn {}@-moz-keyframes fadeIn {}.webBotDesigner section {
+  /*唯獨模式*/ }
+  .webBotDesigner section.TextModule.locked .fullTemplate div.col-4, .webBotDesigner section.ImageModule.locked .fullTemplate div.col-4 {
+    /*文字填寫或檔案上傳欄位*/ }
+
+.webBotDesigner section {
+  /*每個模組的最高層級元素*/ }
+  .webBotDesigner section .inputAlert i:before {
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.15); }
+  .webBotDesigner section .inputAlert i.warning {
+    color: #ffc107; }
+  .webBotDesigner section .inputAlert i.error {
+    color: #dc3545; }
+  .webBotDesigner section .inputAlert .desc.warning p {
+    color: #333;
+    background-color: #ffc107; }
+  .webBotDesigner section .inputAlert .desc.error p {
+    color: #fff;
+    background-color: #dc3545; }
+
+.webBotDesigner .templateName {
+  background-color: #00b900;
+  color: #fff; }
+
+.webBotDesigner input,
+.webBotDesigner textarea,
+.webBotDesigner select {
+  background-color: #eff2f5; }
+
+.webBotDesigner .templateEmulator.fancyCardsSize dd .bg, .webBotDesigner .templateEmulator.imageCardsSize dd .bg {
+  background-color: #688bbc; }
+
+.webBotDesigner .templateEmulator dt {
+  background-color: #eff2f5; }
+
+.webBotDesigner .templateEmulator dd {
+  background-color: #688bbc; }
+
+.webBotDesigner .templateEmulator .basicBubble {
+  background-color: #fff; }
+  .webBotDesigner .templateEmulator .basicBubble:before {
+    background-image: url("../images/bubble_coner.png");
+    background-repeat: no-repeat; }
+  .webBotDesigner .templateEmulator .basicBubble * {
+    color: #444444; }
+  .webBotDesigner .templateEmulator .basicBubble a {
+    color: #3b84fa;
+    text-decoration: underline; }
+  .webBotDesigner .templateEmulator .basicBubble .labelBtn i,
+  .webBotDesigner .templateEmulator .basicBubble .labelBtn span {
+    color: #fff; }
+  .webBotDesigner .templateEmulator .basicBubble .propsWrapper {
+    background-color: #fff; }
+  .webBotDesigner .templateEmulator .basicBubble .cardsOptions button {
+    background-color: #fff;
+    cursor: pointer; }
+
+.webBotDesigner .templateEmulator .basicBubble.imageCardsBubble .imageCardsMask {
+  background-color: rgba(255, 255, 255, 0.3); }
+  .webBotDesigner .templateEmulator .basicBubble.imageCardsBubble .imageCardsMask figcaption span {
+    background-color: #8f8f8f;
+    color: #fff;
+    text-decoration: none; }
+
+.webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .fancyCardsMask {
+  background-color: rgba(255, 255, 255, 0.3); }
+
+.webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .textCard {
+  background-color: #fff;
+  border-bottom: #f2f2f2 solid 1px; }
+
+.webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard {
+  background-color: #fff; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard li div span,
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .actionsCard li div a {
+    color: #41649a;
+    text-decoration: none; }
+
+.webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .propsWrapper .actionsTypeTitle {
+  color: #212529; }
+
+.webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .propsWrapper .switchActions .labelBtn {
+  color: #333;
+  background-color: #fff; }
+
+.webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .propsWrapper .switchActions .combineIcon:checked + .labelBtn {
+  color: #fff;
+  background-color: #17a2b8; }
+  .webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .propsWrapper .switchActions .combineIcon:checked + .labelBtn i {
+    color: #fff; }
+
+.webBotDesigner .templateEmulator .basicBubble.fancyCardsBubble .propsWrapper .switchTitle {
+  color: #fff; }

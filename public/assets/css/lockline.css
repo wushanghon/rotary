@@ -1,0 +1,611 @@
+@charset "UTF-8";
+
+/* Create with Compass + SCSS on windows */
+/* ... 齊力樂門後臺板面增修20190508 ... */
+/*登入頁－背景色*/
+body.yellow_bg {
+    background-color: #E7E7E9;
+}
+
+.datepicker {
+    background: #f2f2f2 url(/assets/images/icon_date.png) no-repeat 95% 10px;
+    width: 170px;
+}
+
+.wrapper-page.login_boxs {
+    width: 100%;
+    max-width: 800px;
+}
+
+@media (max-width: 767px) {
+    .wrapper-page.login_boxs {
+        width: 90%;
+    }
+}
+
+.card.login_shadow {
+    display: inline-block;
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    -webkit-filter: drop-shadow(5px 10px 20px rgba(164, 164, 164, 0.2));
+    filter: drop-shadow(5px 10px 20px rgba(164, 164, 164, 0.2));
+    overflow: hidden;
+}
+
+.card-body.box50 {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 767px) {
+    .card-body.box50 {
+        width: 100%;
+    }
+}
+
+.card-body.no_padding {
+    padding: 0;
+}
+
+.card-body.s_padding {
+    padding: .5rem 1rem .5rem 1rem;
+}
+
+/* .card-body img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+} */
+
+/* 登入頁－大標文字顏色 */
+.text_1 {
+    padding: 1rem;
+    color: #004680;
+}
+
+.text_white {
+    color: white;
+}
+
+.text_LivingCoral {
+    color: #fe473e;
+}
+
+/* 登入頁－文字顏色 */
+.text_LightOrange {
+    color: #004680;
+}
+
+.padding_2 {
+    padding-top: 2px;
+}
+
+.margin_b5 {
+    margin-bottom: 5px;
+}
+
+/* 登入頁－忘記密碼文字顏色 */
+.a_text_LightOrange {
+    color: #004680;
+}
+
+.a_text_LightOrange:hover,
+.a_text_LightOrange:active {
+    color: #004680;
+    text-decoration: underline;
+}
+
+/* 登入頁－登入按鈕顏色 */
+.btn-LivingCoral {
+    background-color: #004680;
+    color: white;
+}
+
+/* 登入頁－輸入欄位框線顏色 */
+.border_text_LightOrange {
+    border: 1px solid #004680 !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #004680 !important;
+}
+
+.bg_LivingCoral {
+    /* background-color: #ff918c; */
+    background-color: #FFF;
+}
+
+.tm-t-20 {
+    margin-top: 20px;
+}
+
+.lineH70 {
+    line-height: 70px;
+}
+
+/* tree－背景色 */
+.bg_left {
+    background-color: #004680;
+    /* background-image: -webkit-gradient(linear, left center, right center, from(#013866), to(#bfbfbf), color-stop(3%, #004680), color-stop(12%, #004680), color-stop(90%, #004680));
+    background-image: -webkit-linear-gradient(left, #013866, #004680 3%, #004680 12%, #004680 50%, #013866);
+    background-image: -moz-linear-gradient(left, #013866, #004680 3%, #004680 12%, #004680 50%, #013866);
+    background-image: -o-linear-gradient(left, #013866, #004680 3%, #004680 12%, #004680 50%, #013866);
+    background-image: -ms-linear-gradient(left, #013866, #004680 3%, #004680 12%, #004680 50%, #013866);
+    background-image: linear-gradient(to right, #013866, #004680 3%, #004680 12%, #004680 50%, #013866); */
+}
+
+.slimScrollDiv {
+    background-color: transparent !important;
+}
+
+/* tree－LOGO背景色 */
+.bg_pink {
+    background-color: #004680;
+    /* background-image: -webkit-gradient(linear, left center, right center, from(#013866), to(#bfbfbf), color-stop(3%, #004680), color-stop(12%, #004680), color-stop(90%, #004680));
+    background-image: -webkit-linear-gradient(left, #013866, #004680 3%, #004680 12%, #004680 50%, #013866);
+    background-image: -moz-linear-gradient(left, #013866, #004680 3%, #004680 12%, #004680 50%, #013866);
+    background-image: -o-linear-gradient(left, #013866, #004680 3%, #004680 12%, #004680 50%, #013866);
+    background-image: -ms-linear-gradient(left, #013866, #004680 3%, #004680 12%, #004680 50%, #013866);
+    background-image: linear-gradient(to right, #013866, #004680 3%, #004680 12%, #004680 50%, #013866); */
+}
+
+.h70 {
+    height: 70px;
+}
+
+.bg_white {
+    background-color: white;
+}
+
+#wrapper > div.content-page .card > .card-body {
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+#wrapper > div.content-page .card > .card-body .mantain-task {
+    margin: 0px;
+}
+
+.btn {
+    font-size: 12px;
+}
+
+.FixMainTopMenu {
+    float: left;
+    width: calc(100% - 100px);
+    padding: 18px 8px 8px 8px !important;
+}
+
+.FixMainTopMenu div.float-right {
+    padding-top: 5px;
+}
+
+@media (max-width: 767px) {
+    .FixMainTopMenu {
+        position: relative;
+        left: 40px;
+    }
+}
+
+#MainTopMenu {
+    padding: 8px;
+    /* -webkit-box-shadow: inset 0 10px 20px rgba(0,0,0,0.08); */
+    /* -moz-box-shadow: inset 0 10px 20px rgba(0,0,0,0.08); */
+    /* box-shadow: inset 0 10px 20px rgba(0,0,0,0.08);  */
+}
+
+#sidebar-menu {
+    padding-top: 0px;
+}
+
+/* tree－展開的項目文字顏色 */
+#sidebar-menu > ul ul a {
+    color: #FFF !important;
+}
+
+/* tree－展開的項目文字移過顏色 */
+#sidebar-menu > ul ul a:hover {
+    /*color: #fe473e !important;****/
+    color: #FF8FB2 !important;
+}
+
+/* tree－展開的項目文字已選顏色 */
+#sidebar-menu > ul ul li.active a {
+    color: #FF8FB2 !important;
+}
+
+/* tree－資料夾已選文字顏色 */
+#sidebar-menu > ul > li.has_sub.nav-active > a {
+    /* color: #fe473e !important; */
+    color: #FFF !important;
+}
+
+/* tree－資料夾文字顏色 */
+#sidebar-menu > ul > li > a {
+    color: #FFF;
+    padding: 10px 25px !important;
+    font-size: 14px;
+    margin: 0 0;
+}
+
+/* tree－資料夾文字移過顏色 */
+#sidebar-menu > ul > li > a:hover {
+    /* color: #fe473e !important; */
+    color: #FF8FB2 !important;
+}
+
+/* tree－資料夾文字已選顏色 */
+#sidebar-menu > ul > li > a.active {
+    color: #FF8FB2;
+    background-color: rgba(0, 0, 0, 0.15);
+    line-height: 30px;
+}
+
+/* tree－資料夾箭頭移過顏色 */
+#sidebar-menu > ul > li > a:hover i,
+#sidebar-menu > ul > li > a.active:hover i {
+    /* color: #fe473e !important; */
+    color: #FF8FB2 !important;
+}
+
+/* tree－資料夾ICON顏色 */
+#sidebar-menu > ul > li > a > i {
+    /* color: #fe473e !important; */
+    color: #FFF !important;
+    margin-top: -2px !important;
+}
+
+/* tree－資料夾箭頭已選顏色(有選單) */
+#sidebar-menu > ul > li.has_sub.nav-active > a.active > i {
+    color: #FFF !important;
+}
+
+/* tree－資料夾箭頭已選顏色(沒有選單) */
+#sidebar-menu > ul > li > a.active > i {
+    color: #FF8FB2 !important;
+}
+
+/* tree－資料夾ICON移過顏色 */
+#sidebar-menu > ul > li > a:hover > i {
+    color: #FF8FB2 !important;
+}
+
+/* tree－資料夾文字已選移過顏色 */
+#sidebar-menu > ul > li.has_sub.nav-active > a:hover {
+    color: #FF8FB2 !important;
+}
+
+/* 分頁－按鈕文字顏色 */
+.btn-secondary {
+    /* color: #ff8646 !important; */
+    color: #FFF !important;
+    border-color: #2E364F !important;
+    background-color: rgba(46, 54, 79, 0.9) !important;
+    font-size: 12px;
+    height: 32px;
+    width: 40px;
+}
+
+/* 分頁－查詢文字顏色 */
+.form-control-chili {
+    border-top: 1px solid rgba(46, 54, 79, 0.9) !important;
+    border-bottom: 1px solid rgba(46, 54, 79, 0.9) !important;
+    border-left: 1px solid rgba(46, 54, 79, 0.9) !important;
+    border-right: 1px solid rgba(46, 54, 79, 0.9) !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    height: 32px;
+    background-color: rgba(46, 54, 79, 0.9) !important;
+    color: #FFF;
+}
+
+/* 表單－下拉選單 */
+.form-control-select {
+    height: 32px;
+    position: relative;
+    left: -108px;
+    border-color: #d3d3d3 !important;
+    background-color: #f4f0f4 !important;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    /* background-color: #ff8646 !important;
+    border: 1px solid #ff8646 !important; */
+}
+
+/* 取消按鈕 */
+.chili-btn-group .chili-btn.task-mutual,
+.chili-btn-group .chili-btn.task-delete {
+    border-color: #d3d3d3 !important;
+    background-color: #f4f0f4 !important;
+    color: #524545 !important;
+}
+
+.chili-pagination .chili-btn a {
+    color: #fe473e !important;
+}
+
+.chili-pagination .chili-btn.current a {
+    color: #fe473e !important;
+}
+
+/* .chili-btn-group .chili-btn.task-delete {
+    border-color: #aa0047 !important;
+    background-color: rgba(170, 0, 71, 0.9) !important;
+} */
+
+.chili-btn-group .chili-btn.task-modify {
+    border-color: #000 !important;
+    background-color: #000 !important;
+}
+
+/* 新增按鈕, 儲存按鈕 */
+.chili-btn-group .chili-btn.task-create,
+.chili-btn-group .chili-btn.task-modify {
+    /* border-color: #006fb3 !important;
+    background-color: #006fb3 !important; */
+    border-color: #FF8FB2 !important;
+    background-color: #FF8FB2 !important;
+}
+
+.chili-btn-group .chili-btn.task-search {
+    /* border-color: #fe3e36 !important;
+    background-color: rgba(254, 62, 54, 0.9) !important; */
+    border-color: #2E364F !important;
+    background-color: rgba(46, 54, 79, 0.9) !important;
+}
+
+.chili-btn-group {
+    margin: 2px 8px;
+}
+
+.chili-spaced {
+    margin-right: 9px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f4f0f4 !important;
+}
+
+.chili-pagination .chili-btn a:hover,
+.chili-pagination .chili-btn.current a {
+    color: white !important;
+    background-color: #ff8646 !important;
+}
+
+/* placeholder color */
+.form-control::-webkit-input-placeholder {
+    color: #bcbcbc;
+    opacity: 1
+}
+
+.form-control::-moz-placeholder {
+    color: #bcbcbc;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: #bcbcbc;
+    opacity: 1
+}
+
+.form-control::-ms-input-placeholder {
+    color: #bcbcbc;
+    opacity: 1
+}
+
+.form-control::placeholder {
+    color: #bcbcbc;
+    opacity: 1
+}
+
+/* 登入頁－副標文字顏色 */
+span.text_2 {
+    color: #bcbcbc;
+    font-size: 14px;
+}
+
+.form-group {
+    margin: 8px 8px 0px 8px;
+}
+
+.fas.fa-edit,
+.fas.fa-trash-alt,
+.fas.fa-user-lock,
+.fas.fa-star,
+.far.fa-star,
+.mdi-settings,
+.fas.fa-copy {
+    color: #2E364F;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0px 4px;
+    line-height: 18px;
+}
+
+/*dashboard*/
+.ct-series-a .ct-area {
+    fill: #fe473e !important;
+}
+
+.ct-chart .ct-series.ct-series-a .ct-point,
+.ct-chart .ct-series.ct-series-a .ct-line,
+.ct-chart .ct-series.ct-series-c .ct-slice-donut,
+.ct-chart .ct-series.ct-series-e .ct-bar,
+.ct-chart .ct-series.ct-series-a .ct-bar,
+.ct-chart .ct-series.ct-series-e .ct-line,
+.ct-chart .ct-series.ct-series-e .ct-point,
+.ct-chart .ct-series.ct-series-e .ct-slice-donut {
+    stroke: #fe473e !important;
+}
+
+.ct-chart .ct-series.ct-series-d .ct-point,
+.ct-chart .ct-series.ct-series-d .ct-line,
+.ct-chart .ct-series.ct-series-b .ct-bar {
+    stroke: rgba(255, 134, 70, 0.5) !important;
+}
+
+.runboxs {
+    display: inline-block;
+    width: 100%;
+    margin: 50px 25px 0 25px;
+    height: 3em;
+    overflow: hidden;
+    position: relative;
+    background: #f4f0f4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.runboxs ul {
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+    animation: marqee 30s linear infinite;
+    position: absolute;
+}
+
+.runboxs ul li {
+    white-space: nowrap;
+    margin-right: 2em;
+    font-weight: bold;
+    color: #5b626b;
+    line-height: 3em;
+}
+
+@keyframes marqee {
+    0% {
+        left: 100%;
+        transform: translateX(0%);
+    }
+
+    100% {
+        left: 0;
+        transform: translateX(-100%);
+    }
+}
+
+.boxsspace {
+    margin: 25px 10px 0 10px;
+}
+
+.me_boxs {
+    display: inline-block;
+    width: calc(100% / 3 - 30px);
+    float: left;
+}
+
+@media (max-width: 767px) {
+    .me_boxs {
+        width: 100%;
+    }
+}
+
+.me_boxs:nth-child(2) {
+    margin: 0 40px;
+}
+
+@media (max-width: 767px) {
+    .me_boxs:nth-child(2) {
+        margin: 0;
+    }
+}
+
+.me_boxs .me_box {
+    display: inline-block;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8681+50,ffd906+100&1+1,0.5+100 */
+    padding: 10px 15px 10px 0;
+    border-bottom: 1px solid #f2edf2;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.me_boxs .me_box p {
+    display: black;
+    width: 100%;
+    color: #5b626b;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.me_boxs .me_box p:after {
+    display: inline-block;
+    content: '';
+    width: 60%;
+    background-color: #f2edf2;
+    height: 1px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.me_boxs .me_box .big_num01 {
+    display: inline-block;
+    width: 95%;
+    font-size: 5rem;
+    text-align: right;
+    margin-bottom: -25px;
+}
+
+.me_boxs .me_box .big_num01:after {
+    display: inline-block;
+    content: '則';
+    font-size: 1rem;
+    position: absolute;
+    bottom: 11px;
+    padding-left: 10px;
+}
+
+.me_boxs .me_box .big_num02 {
+    display: inline-block;
+    width: 95%;
+    font-size: 5rem;
+    text-align: right;
+    margin-bottom: -25px;
+}
+
+.me_boxs .me_box .big_num02:after {
+    display: inline-block;
+    content: '元';
+    font-size: 1rem;
+    position: absolute;
+    bottom: 11px;
+    padding-left: 10px;
+}
+
+.me_boxs .me_box .big_num03 {
+    display: inline-block;
+    width: 95%;
+    font-size: 5rem;
+    text-align: right;
+    margin-bottom: -25px;
+}
+
+.me_boxs .me_box .big_num03:after {
+    display: inline-block;
+    content: '人';
+    font-size: 1rem;
+    position: absolute;
+    bottom: 11px;
+    padding-left: 10px;
+}
+
+.h120 {
+    height: 93px;
+    padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .button-menu-mobile {
+        top: 13px !important;
+        padding-left: 15px;
+    }
+}
